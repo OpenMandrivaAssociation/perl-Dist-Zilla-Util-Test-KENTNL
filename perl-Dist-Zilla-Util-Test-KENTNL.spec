@@ -1,9 +1,9 @@
 %define upstream_name    Dist-Zilla-Util-Test-KENTNL
-%define upstream_version 0.01000510
+%define upstream_version 1.000000
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	KENTNL's DZil plugin testing tool
 License:	GPL+ or Artistic
@@ -51,4 +51,5 @@ perl Build.PL installdirs=vendor
 %doc README Changes LICENSE META.yml META.json
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
 
